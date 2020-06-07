@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>eslint | GetemJay</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="嗨">
+    <link rel="preload" href="/assets/css/0.styles.80d91c57.css" as="style"><link rel="preload" href="/assets/js/app.b55223fb.js" as="script"><link rel="preload" href="/assets/js/2.e2359f32.js" as="script"><link rel="preload" href="/assets/js/70.0bbe1f7e.js" as="script"><link rel="prefetch" href="/assets/js/10.0f22cbc1.js"><link rel="prefetch" href="/assets/js/11.a9f431c9.js"><link rel="prefetch" href="/assets/js/12.65b017c7.js"><link rel="prefetch" href="/assets/js/13.b2d2302b.js"><link rel="prefetch" href="/assets/js/14.9ce98808.js"><link rel="prefetch" href="/assets/js/15.86477917.js"><link rel="prefetch" href="/assets/js/16.babfdb77.js"><link rel="prefetch" href="/assets/js/17.3596d01b.js"><link rel="prefetch" href="/assets/js/18.e3d0b009.js"><link rel="prefetch" href="/assets/js/19.f7a82c5e.js"><link rel="prefetch" href="/assets/js/20.385ece05.js"><link rel="prefetch" href="/assets/js/21.9eb65213.js"><link rel="prefetch" href="/assets/js/22.d974c606.js"><link rel="prefetch" href="/assets/js/23.fc9819b7.js"><link rel="prefetch" href="/assets/js/24.ae79c971.js"><link rel="prefetch" href="/assets/js/25.fa2a820b.js"><link rel="prefetch" href="/assets/js/26.6722fd09.js"><link rel="prefetch" href="/assets/js/27.579147b8.js"><link rel="prefetch" href="/assets/js/28.75649fa4.js"><link rel="prefetch" href="/assets/js/29.87ec9afb.js"><link rel="prefetch" href="/assets/js/3.772de6fe.js"><link rel="prefetch" href="/assets/js/30.8f21357d.js"><link rel="prefetch" href="/assets/js/31.07fcbed5.js"><link rel="prefetch" href="/assets/js/32.d20f8fcb.js"><link rel="prefetch" href="/assets/js/33.21bbe360.js"><link rel="prefetch" href="/assets/js/34.a2ea0c4b.js"><link rel="prefetch" href="/assets/js/35.cb4bd973.js"><link rel="prefetch" href="/assets/js/36.1af0196a.js"><link rel="prefetch" href="/assets/js/37.651c3720.js"><link rel="prefetch" href="/assets/js/38.3663a150.js"><link rel="prefetch" href="/assets/js/39.3e9b4fa6.js"><link rel="prefetch" href="/assets/js/4.a70dadd0.js"><link rel="prefetch" href="/assets/js/40.662a1aa2.js"><link rel="prefetch" href="/assets/js/41.67581965.js"><link rel="prefetch" href="/assets/js/42.1b17fc54.js"><link rel="prefetch" href="/assets/js/43.6373e60c.js"><link rel="prefetch" href="/assets/js/44.47722a46.js"><link rel="prefetch" href="/assets/js/45.96de7525.js"><link rel="prefetch" href="/assets/js/46.861401af.js"><link rel="prefetch" href="/assets/js/47.b69a7912.js"><link rel="prefetch" href="/assets/js/48.5baf335a.js"><link rel="prefetch" href="/assets/js/49.d8972469.js"><link rel="prefetch" href="/assets/js/5.f0245d62.js"><link rel="prefetch" href="/assets/js/50.33be5e16.js"><link rel="prefetch" href="/assets/js/51.89d12bce.js"><link rel="prefetch" href="/assets/js/52.93303bae.js"><link rel="prefetch" href="/assets/js/53.bf237ad0.js"><link rel="prefetch" href="/assets/js/54.734ec1f4.js"><link rel="prefetch" href="/assets/js/55.0982844d.js"><link rel="prefetch" href="/assets/js/56.7e333d80.js"><link rel="prefetch" href="/assets/js/57.94b68fec.js"><link rel="prefetch" href="/assets/js/58.7dca12f1.js"><link rel="prefetch" href="/assets/js/59.30edc10c.js"><link rel="prefetch" href="/assets/js/6.c9098262.js"><link rel="prefetch" href="/assets/js/60.102e38ad.js"><link rel="prefetch" href="/assets/js/61.a4daf9df.js"><link rel="prefetch" href="/assets/js/62.484e4e23.js"><link rel="prefetch" href="/assets/js/63.3c44c89b.js"><link rel="prefetch" href="/assets/js/64.86741f38.js"><link rel="prefetch" href="/assets/js/65.182bdaf8.js"><link rel="prefetch" href="/assets/js/66.dbd9bf24.js"><link rel="prefetch" href="/assets/js/67.e1673e6a.js"><link rel="prefetch" href="/assets/js/68.df66e1c7.js"><link rel="prefetch" href="/assets/js/69.bf78d786.js"><link rel="prefetch" href="/assets/js/7.b94d2aeb.js"><link rel="prefetch" href="/assets/js/71.a7d54f6f.js"><link rel="prefetch" href="/assets/js/72.a7300cee.js"><link rel="prefetch" href="/assets/js/73.df3de760.js"><link rel="prefetch" href="/assets/js/74.a4e02367.js"><link rel="prefetch" href="/assets/js/75.392a3ffe.js"><link rel="prefetch" href="/assets/js/76.42c20cb5.js"><link rel="prefetch" href="/assets/js/77.f184d2ee.js"><link rel="prefetch" href="/assets/js/78.e6cf8652.js"><link rel="prefetch" href="/assets/js/79.4023977a.js"><link rel="prefetch" href="/assets/js/8.62dbe1eb.js"><link rel="prefetch" href="/assets/js/9.6e3d5b32.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.80d91c57.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">GetemJay</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  About
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Posts" class="dropdown-title"><span class="title">Posts</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/webpack/" class="nav-link router-link-active">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/ES6/" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/Vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/nodeJS/" class="nav-link">
+  nodeJS
+</a></li><li class="dropdown-item"><!----> <a href="/TypeScript/" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/网络/" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/tool/" class="nav-link">
+  tool
+</a></li><li class="dropdown-item"><!----> <a href="/工作中遇到的问题/" class="nav-link">
+  工作中遇到的问题
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  About
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Posts" class="dropdown-title"><span class="title">Posts</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/JavaScript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/webpack/" class="nav-link router-link-active">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/ES6/" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/Vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/nodeJS/" class="nav-link">
+  nodeJS
+</a></li><li class="dropdown-item"><!----> <a href="/TypeScript/" class="nav-link">
+  TypeScript
+</a></li><li class="dropdown-item"><!----> <a href="/网络/" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/tool/" class="nav-link">
+  tool
+</a></li><li class="dropdown-item"><!----> <a href="/工作中遇到的问题/" class="nav-link">
+  工作中遇到的问题
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>HTML</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>CSS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JavaScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>webpack</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/webpack/" aria-current="page" class="sidebar-link">webpack</a></li><li><a href="/webpack/loader.html" class="sidebar-link">loader</a></li><li><a href="/webpack/dev-server.html" class="sidebar-link">dev-server</a></li><li><a href="/webpack/eslint.html" aria-current="page" class="active sidebar-link">eslint</a></li><li><a href="/webpack/vue项目webpack升级笔记.html" class="sidebar-link">vue项目webpack升级笔记</a></li><li><a href="/webpack/git提交.html" class="sidebar-link">git提交规范</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>ES6</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>nodeJS</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>TypeScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>网络</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>tool</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>工作中遇到的问题</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="eslint"><a href="#eslint" class="header-anchor">#</a> eslint</h1> <p>eslint 代码规范，之前开发的时候挺不喜欢用的，感觉总是喜欢报一些书写习惯的问题，但后来一次偶然的机会使用了一次之后，发现真的很好用，对于代码的规范有很大的帮助，用完之后发现腰不酸了腿不疼了，一口气可以爬上5楼了</p> <p>使用eslint 需要安装</p> <ol><li>eslint</li> <li>eslint-loader</li></ol> <p>附上我喜欢的一个.eslintrc.js 并不是标准的</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// https://eslint.org/docs/user-guide/configuring</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  root<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  parserOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+    parser<span class="token operator">:</span> <span class="token string">'babel-eslint'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  env<span class="token operator">:</span> <span class="token punctuation">{</span>
+    browser<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    es6<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">extends</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token comment">// https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention</span>
+    <span class="token comment">// consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.</span>
+    <span class="token string">'plugin:vue/essential'</span><span class="token punctuation">,</span>
+    <span class="token comment">// https://github.com/standard/standard/blob/master/docs/RULES-en.md</span>
+    <span class="token string">'standard'</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// required to lint *.vue files</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">'vue'</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// add your custom rules here</span>
+  rules<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'no-debugger'</span><span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'production'</span> <span class="token operator">?</span> <span class="token string">'error'</span> <span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
+    <span class="token string">'no-console'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
+    <span class="token string">'no-unused-vars'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">//做检测</span>
+    <span class="token string">'no-useless-escape'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//做检测</span>
+    <span class="token string">'no-multiple-empty-lines'</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token number">2</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        max<span class="token operator">:</span> <span class="token number">3</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+    <span class="token comment">// 'array-element-newline': ['error', { multiline: true }], //强制数组元素间出现换行</span>
+    <span class="token string">'no-unneeded-ternary'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//禁止可以在有更简单的可替代的表达式时使用三元操作符</span>
+    <span class="token string">'no-new-func'</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token comment">//禁止使用 new 以避免产生副作用</span>
+    <span class="token string">'no-with'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//禁用 with 语句</span>
+    <span class="token string">'no-eval'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//禁用 eval()</span>
+    <span class="token string">'no-new-wrappers'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//禁止对 String，Number 和 Boolean 使用 new 操作符</span>
+    <span class="token string">'no-var'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//要求使用 let 或 const 而不是 var</span>
+    <span class="token string">'prefer-template'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//要求使用模板字面量而非字符串连接</span>
+    <span class="token string">'prefer-rest-params'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">//要求使用剩余参数而不是 arguments</span>
+    <span class="token string">'vue/no-side-effects-in-computed-properties'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span>
+    <span class="token string">'prettier/prettier'</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;off&quot;</span><span class="token punctuation">,</span> <span class="token comment">//关闭所有会引起冲突的规则</span>
+      <span class="token punctuation">{</span>
+        printWidth<span class="token operator">:</span> <span class="token number">120</span><span class="token punctuation">,</span> <span class="token comment">//设置prettier单行输出（不折行）的（最大）长度。</span>
+        tabWidth<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token comment">//设置工具每一个水平缩进的空格数</span>
+        useTabs<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//如果为true，则使用制表符tab缩进行</span>
+        singleQuote<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//使用单引号而非双引号；</span>
+        semi<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//true，在每一条语句后面添加分号</span>
+        trailingComma<span class="token operator">:</span> <span class="token string">'none'</span><span class="token punctuation">,</span> <span class="token comment">//在任何可能的多行中输入尾逗号， none无尾逗号。</span>
+        bracketSpacing<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">//在对象字面量声明所使用的的花括号后（{）和前（}）输出空格</span>
+        jsxBracketSameLine<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">//在多行JSX元素最后一行的末尾添加 &gt; 而使 &gt; 单独一行（不适用于自闭和元素）</span>
+        insertPragma<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">//Prettier可以在文件的顶部插入一个 @format的特殊注释，以表明改文件已经被Prettier格式化过了</span>
+        requirePragma<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">//Prettier可以严格按照按照文件顶部的一些特殊的注释格式化代码，这些注释称为“require pragma”(必须杂注)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;no-undef&quot;</span><span class="token operator">:</span><span class="token string">&quot;off&quot;</span> 
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br></div></div><p><a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">eslint官网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">6/5/2020, 5:18:12 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/webpack/dev-server.html" class="prev">
+        dev-server
+      </a></span> <span class="next"><a href="/webpack/vue项目webpack升级笔记.html">
+        vue项目webpack升级笔记
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.b55223fb.js" defer></script><script src="/assets/js/2.e2359f32.js" defer></script><script src="/assets/js/70.0bbe1f7e.js" defer></script>
+  </body>
+</html>
